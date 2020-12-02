@@ -1,0 +1,72 @@
+h1 {
+	background-color: #808080;
+	height: 80px;
+	color: #FFFFFF;
+	padding-left: 30px;
+	line-height: 80px;
+	font-size: 25px;
+	margin: 0;
+	font-weight: 1000;
+
+}
+
+.info_div,
+.info_div2 {
+	border-bottom: solid 1px white;
+	border-top: solid 1px darkgray;
+	clear: left;
+	min-height: 150px;
+}
+
+.title {
+	background-color: darkgrey;
+	height: 150px;
+	width: 150px;
+	text-align: center;
+	line-height: 140px;
+	font-size: 18px;
+	font-weight: 600;
+	float: left;
+}
+
+.little_info {
+	width: auto;
+	height: auto;
+	float: left;
+	padding: 10px 0 0 10px;
+}
+
+
+.info,
+.label {
+	font-size: 15px;
+	width: auto;
+	margin: 0;
+	margin-right: 20px;
+	float: left;
+}
+
+.label {
+	font-weight: 1000;
+}
+
+.info_div2 .info,
+.info_div2 ul,
+.info_div2 .label{
+	margin: 0px;
+	padding: 0px;
+}
+
+.info_div2 .long_info li {
+	list-style-type: decimal;
+	float: none;
+	clear: left;
+	
+}
+
+.info_div2 .long_info{
+	clear: right;
+	overflow: auto;
+	width: auto;
+	padding: 10px 0 0 10px;
+}
